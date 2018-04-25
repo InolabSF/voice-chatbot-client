@@ -12,7 +12,7 @@ const sessionName   = 'test-session'; // name unique id as a session when making
 
 // get google cloud access token
 const childProcess = exec('gcloud auth print-access-token', {async: true});
-childProcess.stdout.on('data', function(data) {
+childProcess.stdout.on('data', (data) => {
     const accessToken = data.replace(/\r?\n/g,"");
     callDialogflow(accessToken);
 });
