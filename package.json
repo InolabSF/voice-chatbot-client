@@ -1,0 +1,9 @@
+{
+  "name": "voice-chatbot-cliet",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "shelljs": "^0.8.1"
+  }
+}
+
