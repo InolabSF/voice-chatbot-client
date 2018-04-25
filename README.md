@@ -1,5 +1,7 @@
 ## installation
 
+- [save service-account-key.json on top dir](https://dialogflow.com/docs/reference/v2-auth-setup#getting_the_service_account_key)
+
 - [install gcloud CLI](https://cloud.google.com/sdk/docs/)
 
 - [set key to gcloud CLI](https://dialogflow.com/docs/reference/v2-auth-setup)
